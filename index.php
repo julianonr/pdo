@@ -6,6 +6,16 @@ class Main
 {
     public function __construct()
     {
-        echo "oi";
+        echo "1";
+    }
+    public function teste()
+    {
+        return "2";
     }
 }
+
+$teste = new Main();
+
+$xx = $teste->teste();
+
+echo $xx;
